@@ -1,0 +1,2 @@
+for v in $(pkgutil --pkgs=".*continuum.*");      
+do sudo pkgutil --forget $v; done;
